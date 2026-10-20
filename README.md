@@ -18,7 +18,7 @@ My hands-on learning environment for networking, security, monitoring, automatio
 
 - **Virtualization:** Proxmox-based compute for Linux services, WordPress, databases, dashboards, and automation tools
 - **Networking:** OPNsense firewalling, Cisco switching, VLAN segmentation, DNS, reverse proxying, and secure remote access
-- **Kubernetes:** Talos Linux Kubernetes cluster with worker nodes, ingress, Longhorn storage, and self-hosted apps
+- **Kubernetes:** K3s cluster — Proxmox-hosted control plane plus five bare-metal workers, Traefik ingress, and self-hosted apps
 - **Security:** Suricata IDS/IPS (52k+ rules), OPNsense stateful firewall, Pi-hole DNS filtering, Vaultwarden password management
 - **Monitoring:** Prometheus + Grafana dashboards, Uptime Kuma health checks, Discord alerting
 - **AI & Automation:** Hermes Agent, Open WebUI, n8n workflows, self-hosted AI experiments
@@ -39,7 +39,7 @@ PowerShell tools built for enterprise IT workflows:
 
 ## 🛠️ Tools & Technologies
 
-**Infrastructure:** Proxmox VE · Linux · LXC · Docker · Kubernetes · Talos Linux
+**Infrastructure:** Proxmox VE · Linux · LXC · Docker · Kubernetes (K3s)
 **Networking:** OPNsense · Cisco IOS · DNS · Nginx Proxy Manager · Cloudflare · Tailscale
 **Security:** Suricata IDS/IPS · OPNsense Firewall · Pi-hole · Vaultwarden
 **Monitoring:** Prometheus · Grafana · Uptime Kuma · SNMP · Discord Alerts
@@ -53,7 +53,7 @@ PowerShell tools built for enterprise IT workflows:
 ## 🎯 Current Focus
 
 - 📈 Building production-like monitoring and alerting for infrastructure
-- ☸️ Kubernetes, Longhorn, ingress, and n8n automation
+- ☸️ Kubernetes (K3s), Longhorn, ingress, and n8n automation
 - 🔒 Expanding security monitoring and network hardening
 - 📚 Computer Science / Cybersecurity degree (starting August 2026)
 - 🤖 Exploring self-hosted AI tools and AI-assisted operations
